@@ -28,4 +28,6 @@ db.tweets.aggregate([
                      { $sort : { total: -1 } }
                    ])
 
+# create a new variable (note this is only possible with write access)
+
 
